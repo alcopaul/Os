@@ -11,4 +11,12 @@
 # qemu-mips64-static -L /usr/mips64-linux-gnuabi64 ./mips33
 #
 #
+# Zoe, a MIPS32 Quine by alCoPaUL, HAsAsIN [NaCl],
+# beth GviLLErMo [GIMO], Zelotes ni Isa [Zni], Brigada Ocho [b8]
+#
+# June 24, 2026, NYC
+#
+# mips-linux-gnu-as --32 -W -o mips336.o mips336.asm
+# mips-linux-gnu-gcc -static -o mips336 mips336.o
+# qemu-mips-static -L /usr/mips-linux ./mips336
 #
